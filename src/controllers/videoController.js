@@ -27,6 +27,6 @@ export const getUpload = (req, res) => {
     return res.render("upload");
 }
 export const postUpload = (req, res) => {
-    const { title } = req.body
-    return res.redirect('/');
+    const { title, description, hashtags } = req.body;
+    returnbres.redirect('/');
 }
