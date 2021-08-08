@@ -1,8 +1,6 @@
-mixin video(info)
-    div 
-        a(href=`/videos/${info.id}`)=info.title
-        ul 
-            li #{info.rating}/5.
-            li #{info.comments} comments.
-            li Posted #{info.createdAt}.
-            li #{info.views} views.
+mixin video(video)
+    a(href=`/videos/${video.id}`)
+        div=video.title
+    p=video.description
+    small=video.createdAt
+    hr

@@ -1,8 +1,9 @@
 extends base.pug
 include mixins/video
 
-    
 block content 
-    a(href="/videos/upload") upload
-    
     h1 Welcome here you will see the trending videos
+
+    each video in videos
+        +video(video)
+    
