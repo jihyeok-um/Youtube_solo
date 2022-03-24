@@ -1,4 +1,4 @@
-# youtuve Reloaded
+# youtube Reloaded
 
 /login -> Login
 /search -> Search
